@@ -23,7 +23,7 @@
 
         <!-- PSPDFKit document display activity. -->
         <activity
-            android:name="com.pspdfkit.ui.PdfActivity"
+            android:name="com.pspdfkit.example.SampleActivity"
             android:windowSoftInputMode="adjustNothing" />
 
         <!--

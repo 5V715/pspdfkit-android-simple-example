@@ -133,6 +133,7 @@ public class MainActivity extends AppCompatActivity {
         // relevant extras to the intent.
         final Intent intent = PdfActivityIntentBuilder.fromUri(MainActivity.this, uri)
                 .configuration(pspdfkitConfiguration)
+                .activityClass(SampleActivity.class)
                 .build();
         startActivity(intent);
     }
